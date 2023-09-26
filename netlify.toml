@@ -1,0 +1,7 @@
+[[redirects]]
+  force = true
+  from = "/index/*"
+  status = 200
+  to = "/.index/:splat"
+[build]
+    command = "npm run build"
